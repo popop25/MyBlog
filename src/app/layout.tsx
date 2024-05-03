@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Canvas>{children}</Canvas>
+      <body>
+        <Canvas>{children}</Canvas>
+      </body>
     </html>
   );
 }

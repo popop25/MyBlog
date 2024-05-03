@@ -11,7 +11,7 @@ const Csr = () => {
     return (
         <div>
             <p>{count}</p>
-            <button onClick={() => addOne()}>increase</button>
+            <button onClick={addOne}>increase</button>
         </div>
     );
 };
