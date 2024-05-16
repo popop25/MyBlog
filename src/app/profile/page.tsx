@@ -1,3 +1,3 @@
 export default function Profile(){
-    return <div>profile</div>;
+    return <div className=" bg-[#fcd34d] text-2xl text-center font-bold pt-7">profile</div>;
 }
