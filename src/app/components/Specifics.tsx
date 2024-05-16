@@ -11,7 +11,9 @@ const Specifics: FC<SpecificsProps> = ({
     return (
         <div className="flex flex-col justify-between w-full h-full">
             <div className="flex w-full h-52 bg-orange-400">
-                <Link href={"/profile"}>Profile</Link>
+                <button className="flex flex-col h-1/5 bg-[#4338ca] rounded-xl">
+                    <Link href={"/profile"}>Profile</Link>
+                </button>
             </div>
             {children}
             <div className="flex w-full h-52 bg-blue-400">
