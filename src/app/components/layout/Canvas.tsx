@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "@/app/components/Sidebar";
-import Specifies from "@/app/components/Specifies";
+import Specifies from "@/app/components/Specifics";
 
 interface CanvasProps {
     children: React.ReactNode;

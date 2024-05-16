@@ -5,7 +5,7 @@ interface SpecificsProps {
     children: ReactNode;
 }
 
-const Specifies: FC<SpecificsProps> = ({
+const Specifics: FC<SpecificsProps> = ({
     children,
 }: SpecificsProps): ReactNode => {
     return (
@@ -21,4 +21,4 @@ const Specifies: FC<SpecificsProps> = ({
     )
 }
 
-export default Specifies;
+export default Specifics;
